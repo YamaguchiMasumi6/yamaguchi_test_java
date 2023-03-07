@@ -16,6 +16,10 @@ public class Practice {
 
 	public static void main(String[] args) {
 		int test[][] = {{64, 73,69},{58,81,75},{86,68,79},{72,55,80}};
+		System.out.println("生徒1:国語" + test[0][0] + "点、数学" + test[0][1] + "点、英語" + test[0][2] + "点");
+		System.out.println("生徒2:国語" + test[1][0] + "点、数学" + test[1][1] + "点、英語" + test[1][2] + "点");
+		System.out.println("生徒3:国語" + test[2][0] + "点、数学" + test[2][1] + "点、英語" + test[2][2] + "点");
+		System.out.println("生徒4:国語" + test[3][0] + "点、数学" + test[3][1] + "点、英語" + test[3][2] + "点");
 		int japanese = (test[0][0] + test[1][0] + test[2][0] + test[3][0])/test.length;
 		int math = (test[0][1] + test[1][1] + test[2][1] + test[3][1])/test.length;
 		int english = (test[0][2] + test[1][2] + test[2][2] + test[3][2])/test.length;
