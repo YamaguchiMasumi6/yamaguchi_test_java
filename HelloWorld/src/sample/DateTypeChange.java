@@ -25,7 +25,7 @@ public class DateTypeChange {
 //		問３）
 //		①double型の変数を定義し、「2 + 6.0」を代入して下さい。
 //		　double型の変数をコンソールに出力して下さい。
-		double a = 2 + 0.6;
+		double a = 2 + 6.0;
 		System.out.println(a);
 //		②int型の変数を定義し、double型の変数をint型に型変換して代入下さい。
 //		　int型の変数をコンソールに出力して下さい。
