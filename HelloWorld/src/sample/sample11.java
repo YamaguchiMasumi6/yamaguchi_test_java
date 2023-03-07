@@ -16,7 +16,7 @@ package sample;
 public class sample11 {
 
 	public static void main(String[] args) {
-		int fortune = new java.util.Random().nextInt(12);
+		int fortune = 6;
 		switch(fortune) {
 		case 2:
 			System.out.println(fortune + "月は28日です。");
