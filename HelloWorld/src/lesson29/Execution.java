@@ -9,7 +9,8 @@ public class Execution {
 	public static void main(String[] args) {
 
 		String strInput = new java.util.Scanner(System.in).nextLine();
-		String[] strSplit = strInput.split(" "); // 空白ごとに分割
+		
+		String[] strSplit = strInput.split("\\."); // 空白ごとに分割
 		Arrays.sort(strSplit); // 並べ替え
 		int[] num = new int[strSplit.length]; // 分割数分の整数の配列を生成
 		
