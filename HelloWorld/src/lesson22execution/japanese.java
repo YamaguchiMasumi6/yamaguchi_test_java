@@ -1,14 +1,14 @@
-package lesson202122; // 処理用パッケージ
+package lesson22execution; // 処理用パッケージ
 
 import java.time.LocalDateTime;
 import java.time.format.DateTimeFormatter;
 
 public class japanese {
-	String hello;
-	String country;
-	String food;
-	String taste;
-	String category;
+	public String hello;
+	public String country;
+	public String food;
+	public String taste;
+	public String category;
 	
 	public void greeting() { // こんにちは！ここは日本です！
 		this.hello = "こんにちは!";
